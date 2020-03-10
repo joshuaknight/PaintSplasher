@@ -49,32 +49,32 @@ body{
 }
 
 .dark li a.mode .icon{
-    background-image: url('file:///Users/joshua/Downloads/halfMoon-icon.svg');
+    background-image: url('assets/images/halfMoon-icon.svg');
     background-repeat: no-repeat;
 }
 
 .light li a.mode .icon{
-    background-image: url('file:///Users/joshua/Downloads/fullMoon-icon.svg');
+    background-image: url('assets/images/fullMoon-icon.svg');
     background-repeat: no-repeat;
 }
 
 li a.brush .icon{
-    background-image: url('file:///Users/joshua/Downloads/brush-icon.svg');
+    background-image: url('assets/images/brush-icon.svg');
     background-repeat: no-repeat;
 }
 
 li a.rubber .icon{
-    background-image: url('file:///Users/joshua/Downloads/rubber-icon.svg');
+    background-image: url('assets/images/rubber-icon.svg');
     background-repeat: no-repeat;
 }
 
 li a.clearAll .icon{
-    background-image: url('file:///Users/joshua/Downloads/clearAll-icon.svg');
+    background-image: url('assets/images/clearAll-icon.svg');
     background-repeat: no-repeat;
 }
 
 li a.save .icon{
-    background-image: url('file:///Users/joshua/Downloads/download-icon.svg');
+    background-image: url('assets/images/download-icon.svg');
     background-repeat: no-repeat;
 }
 
