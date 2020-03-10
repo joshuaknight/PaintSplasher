@@ -1,0 +1,86 @@
+
+body{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.dark svg{
+    background-color: black;
+    transition:all .5s;
+}
+
+.light svg{
+    background-color:#fff;
+    transition:all .5s;
+}
+
+#toolbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#toolbar ul {
+    margin: unset;
+    display: flex;
+    padding: unset;
+}
+
+#toolbar li {
+    list-style: none;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 7px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.dark li a.mode .icon{
+    background-image: url('file:///Users/joshua/Downloads/halfMoon-icon.svg');
+    background-repeat: no-repeat;
+}
+
+.light li a.mode .icon{
+    background-image: url('file:///Users/joshua/Downloads/fullMoon-icon.svg');
+    background-repeat: no-repeat;
+}
+
+li a.brush .icon{
+    background-image: url('file:///Users/joshua/Downloads/brush-icon.svg');
+    background-repeat: no-repeat;
+}
+
+li a.rubber .icon{
+    background-image: url('file:///Users/joshua/Downloads/rubber-icon.svg');
+    background-repeat: no-repeat;
+}
+
+li a.clearAll .icon{
+    background-image: url('file:///Users/joshua/Downloads/clearAll-icon.svg');
+    background-repeat: no-repeat;
+}
+
+li a.save .icon{
+    background-image: url('file:///Users/joshua/Downloads/download-icon.svg');
+    background-repeat: no-repeat;
+}
+
+#toolbar p{
+    color: #fff;
+    margin: unset;
+    position: absolute;
+    right: 10px;
+}
